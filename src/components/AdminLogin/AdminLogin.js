@@ -8,7 +8,7 @@ let socket;
 
 export default function SignIn() {
   const history = useHistory();
-  const ENDPOINT = 'localhost:5000';
+  const ENDPOINT = 'https://chat-application-server-db.herokuapp.com/';
 
   useEffect(() => {
     socket = io(ENDPOINT);

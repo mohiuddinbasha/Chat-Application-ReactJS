@@ -12,7 +12,7 @@ const Admin = () => {
     const [adminName, setAdminName] = useState('');
     const [adminGmailId, setAdminGmailId] = useState('');
     // const [data, setData] = useState([]);
-    const ENDPOINT = 'localhost:5000';
+    const ENDPOINT = 'https://chat-application-server-db.herokuapp.com/';
     const location = useLocation();
     const history = useHistory();
     const [links, setLinks] = useState([]);
