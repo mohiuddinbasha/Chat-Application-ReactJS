@@ -30,7 +30,7 @@ export default function SignIn() {
                          email: response.profileObj.email}
               })
             }}
-            onFailure={() => alert.show('Failure')}
+            onFailure={(response) => {console.log(response); window.alert('Failure')}}
             cookiePolicy={'single_host_origin'}
           
           />
